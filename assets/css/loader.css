@@ -1,0 +1,38 @@
+body {
+  margin: 0px 0px 0px 0px;
+  position: relative;
+  display: block;
+  background: #f7f9fb;
+  background: -webkit-linear-gradient(to left, #050B2C , #000000);
+  /*background: linear-gradient(to left, #050B2C , #000000);*/
+}
+
+.fadeout {
+  color: #ffffff;
+  font-size: large;
+  font-family: helvetica;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadeout 4s;
+  -moz-animation: fadeout 4s;
+  -ms-animation: fadeout 4s;
+  -o-animation: fadeout 4s;
+  animation: fadeout 4s;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+p {
+  color: #ffffff;
+  font-size: medium;
+  font-family: sans-serif;
+  text-align: center;
+}
+

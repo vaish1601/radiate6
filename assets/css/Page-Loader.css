@@ -1,0 +1,58 @@
+.page-loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #050B2C;
+  background: -webkit-linear-gradient(to left, #050B2C , #000000);
+  background: linear-gradient(to left, #050B2C , #000000);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fadeout {
+  color: #ffffff;
+  font-size: large;
+  font-family: helvetica;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadeout 4s;
+  -moz-animation: fadeout 4s;
+  -ms-animation: fadeout 4s;
+  -o-animation: fadeout 4s;
+  animation: fadeout 4s;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+p {
+  color: #ffffff;
+  font-size: medium;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
